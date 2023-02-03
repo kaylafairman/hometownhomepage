@@ -1,0 +1,131 @@
+
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background: #457B9D;
+    color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 80px;
+}
+
+#header{
+    background-image: url("greece.jpg");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(46, 43, 43)
+}
+
+
+.person {
+    width: 160px;
+    height: 200px;
+}
+
+.card {
+    padding: 20px;
+    margin: 250px auto;
+    display: flex;
+    width: 500px;
+    height: 270px;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background:#74A1AA;
+    color:#040f12;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 1px dotted #E63946;
+    border-width: 8px;
+
+}
+    
+
+#title {
+    text-shadow: 7px 5px 4px black;
+}
+
+#para {
+    font-style: italic;
+    width: 250px;
+}
+
+#msg {
+    padding: 6px 12px;
+    background:rgb(68, 102, 90);
+    margin: 5px 16px;
+    font-family: inherit;
+    color:aqua;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    font-size: medium;
+    width: 400px;
+    height: 40px;
+    left: 182px;
+    top:177px;
+}
+
+.main{
+    background-color: #435c3b;
+    background-size: 800px;
+    text-align: center;
+    height: 900px;
+    align-items: center;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.beach {
+    border-radius: 80%;
+}
+
+#aboutbeach {
+    width: 198px;
+    height: 55px;
+    left: 265px;
+    top: 286px;
+    margin: 50px;
+}
+
+.cave {
+    border-radius:80%;
+}
+
+#aboutcave {
+    width: 198px;
+    height: 55px;
+    left: 265px;
+    top: 286px;
+    margin: 7px;
+
+}
+
+.architecture {
+    border-radius: 80%;
+}
+
+#aboutarchitecture {
+    width: 197px;
+    height: 38px;
+    left: 488px;
+    top: 236px;
+    margin: 1px;
+
+}
+
